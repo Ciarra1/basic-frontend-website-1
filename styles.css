@@ -1,0 +1,154 @@
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  margin: 0;
+  max-height: 100vh;
+}
+
+.header {
+  display: flex;
+  max-height: 72px;
+  justify-content: space-between;
+}
+
+.web-name {
+  align-items: center;
+}
+.header-right-links {
+  display: flex;
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+a {
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 100px;
+}
+.hero-main-title {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.left-part {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: auto;
+}
+.h1-hero,
+.p-hero {
+  margin: 10px;
+  margin-left: 0;
+}
+
+.sign-up-btn {
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 16px;
+}
+.btn-div {
+  display: flex;
+}
+.h1-hero {
+  font-size: 48px;
+}
+.mob {
+  height: 250px;
+  width: 400px;
+}
+
+.content-h1 {
+  text-align: center;
+}
+.cards-div {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 200px;
+}
+.card-img {
+  height: 275px;
+  width: auto;
+  border: 3px solid black;
+
+  border-radius: 10px;
+}
+
+.quote-card-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 400px;
+  padding-right: 400px;
+  flex-wrap: wrap;
+  height: 450px;
+  background-color: lightgray;
+}
+
+.author-h2,
+.quote-h1 {
+  margin: 0;
+  padding: 0;
+}
+.quote-h1 {
+  font-weight: normal;
+}
+.author-div {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 20px;
+}
+
+.footer {
+  height: 70px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+}
+.action-div {
+  margin: 125px;
+}
+.action-card-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: skyblue;
+  border-radius: 7px;
+}
+.footer-p {
+  color: white;
+}
